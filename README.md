@@ -1,13 +1,66 @@
-# nFactorial-Ai-Cup-2024
+<img width="1440" alt="image" src="https://github.com/SultokTheF/Ratatui/assets/70005427/21c9650e-5211-463a-9af9-2ece2a4c6770"># How to run 
 
-## < Kuandyk Nuraiym >
+* go to server folder
 
-## < Ratatui >
+```
+cd server
+```
 
-## < Ratatui is a service that offers a large selection of recipes with a simple and user-friendly interface. Essentially, it is a recipe discovery platform that helps users select dishes and make optimal use of available ingredients. Flutter is used for the frontend and Django for the backend. The service also integrates open source machine learning models from Hugging Face >
+* create venv
+
+```
+python3 -m venv venv
+```
+
+* activate venv
+```
+source venv/bin/activate
+```
+
+* install requirements
+
+```
+pip3 install -r requirements.txt
+```
+
+* setup database
+
+```
+python3 manage.py migrate
+```
+
+* run server
+
+```
+python3 manage.py runserver
+```
+
+# How to use and test
+
+* install Postman and set this URL to test
+
+```
+http://localhost:8000/api/generate-recipes/
+```
+
+* set body 
+
+```
+{
+    "items": [
+        "macaroni, butter, salt, bacon, milk, flour, pepper, cream corn"
+    ]
+}
+
+```
+
+* run
+
+<img width="1440" alt="image" src="https://github.com/SultokTheF/Ratatui/assets/70005427/31b9a069-bfed-4885-bc07-38ceb2fb15b4">
 
 
-## Typeform to submit:
-https://docs.google.com/forms/d/e/1FAIpQLSfjnACTWf5xYKInMllmhy5Bchc-DnOXw6vEXsHmXI4XFPwZXw/viewform?usp=sf_link
 
-## DEADLINE: 26/05/2024 10:00
+
+
+
+

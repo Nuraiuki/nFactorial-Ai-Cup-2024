@@ -1,0 +1,7 @@
+services:
+  - type: web
+    plan: free
+    name: mysite
+    runtime: python
+    buildCommand: "./server/build.sh"  # Updated path to build.sh
+    startCommand: "python -m gunicorn server.asgi:application -k uvicorn.workers.UvicornWorker"
