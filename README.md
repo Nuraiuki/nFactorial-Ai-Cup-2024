@@ -1,4 +1,4 @@
-<img width="1440" alt="image" src="https://github.com/SultokTheF/Ratatui/assets/70005427/21c9650e-5211-463a-9af9-2ece2a4c6770"># How to run 
+# How to run 
 
 * go to server folder
 
@@ -57,6 +57,30 @@ http://localhost:8000/api/generate-recipes/
 * run
 
 <img width="1440" alt="image" src="https://github.com/SultokTheF/Ratatui/assets/70005427/31b9a069-bfed-4885-bc07-38ceb2fb15b4">
+
+
+
+* create new terminal
+
+```
+cd client
+```
+
+* run emulator
+
+```
+flutter emulators --launch ios
+```
+
+* run it
+
+```
+flutter run
+```
+
+
+
+
 
 
 
