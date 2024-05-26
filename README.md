@@ -1,11 +1,10 @@
 # nFactorial-Ai-Cup-2024
-Fork this repository and build nFactorial Ai Cup 2024 projects 
 
-## < Your Name >
+## < Kuandyk Nuraiym >
 
-## < Your App's Name >
+## < Ratatui >
 
-## < Your App's description, technical considerations, etc. >
+## < Ratatui is a service that offers a large selection of recipes with a simple and user-friendly interface. Essentially, it is a recipe discovery platform that helps users select dishes and make optimal use of available ingredients. Flutter is used for the frontend and Django for the backend. The service also integrates open source machine learning models from Hugging Face >
 
 
 ## Typeform to submit:
